@@ -114,7 +114,7 @@ const App = () => {
                 </div>
                 {/* Background Accents */}
                 <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 blur-[100px] rounded-full -mr-32 -mt-32"></div>
-            </footer building>
+            </footer>
         </div>
     );
 };
