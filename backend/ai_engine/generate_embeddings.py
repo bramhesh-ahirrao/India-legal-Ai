@@ -27,7 +27,7 @@ def build_vector_index(force_recreate=False):
     os.makedirs(output_dir, exist_ok=True)
     
     # Output file paths
-    embeddings_file = os.path.join(output_dir, "embeddings.npy")
+    embeddings_file = os.path.join(output_dir, "case_vectors.npy")
     faiss_index_file = os.path.join(output_dir, "case_index.faiss")
     metadata_file = os.path.join(output_dir, "cases_metadata.json")
     
