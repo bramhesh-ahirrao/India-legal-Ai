@@ -1,9 +1,17 @@
-flask
-flask-cors
+fastapi
+uvicorn
 python-dotenv
+pymupdf
+anthropic
+voyageai
+pinecone-client
+langchain
+python-multipart
 requests
-sentence-transformers
 numpy
 pandas
-pdfplumber
 faiss-cpu
+flask
+flask-cors
+# Keeping data processing libs from earlier tasks
+tiktoken
